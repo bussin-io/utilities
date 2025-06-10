@@ -13,10 +13,12 @@
     "noImplicitReturns": true,
     "outDir": "./dist",
     "paths": {
-      "@bussin/utilities/uuid": ["lib/uuid"],
-      "@bussin/utilities/uuid/*": ["lib/uuid/*"],
+      "@bussin/utilities/typebox": ["lib/typebox"],
+      "@bussin/utilities/typebox/*": ["lib/typebox/*"],
       "@bussin/utilities/types": ["lib/types"],
-      "@bussin/utilities/types/*": ["lib/types/*"]
+      "@bussin/utilities/types/*": ["lib/types/*"],
+      "@bussin/utilities/uuid": ["lib/uuid"],
+      "@bussin/utilities/uuid/*": ["lib/uuid/*"]
     },
     "preserveConstEnums": true,
     "removeComments": true,
